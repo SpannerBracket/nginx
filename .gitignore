@@ -1,0 +1,20 @@
+# Ignore secret environment files
+.env.secrets
+
+# Ignore ACME certificate output
+certs/
+*.key
+*.pem
+*.csr
+*.crt
+
+# Ignore editor/IDE noise
+.vscode/
+.idea/
+
+# Ignore Python cache (if any old scripts still exist)
+__pycache__/
+*.pyc
+
+# Ignore Docker artefacts
+*.log
